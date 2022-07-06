@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+require("source-map-support/register");
+const cdk = require("aws-cdk-lib");
+const HelloCdkStack_1 = require("../lib/HelloCdkStack");
+const app = new cdk.App();
+new HelloCdkStack_1.HelloCdkStack(app, 'HelloCdkStack', {
+/* define lambda stack */
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaGVsbG8tY2RrLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiaGVsbG8tY2RrLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUNBLHVDQUFxQztBQUNyQyxtQ0FBbUM7QUFDbkMsd0RBQXFEO0FBRXJELE1BQU0sR0FBRyxHQUFHLElBQUksR0FBRyxDQUFDLEdBQUcsRUFBRSxDQUFDO0FBQzFCLElBQUksNkJBQWEsQ0FBQyxHQUFHLEVBQUUsZUFBZSxFQUFFO0FBR3BDLHlCQUF5QjtDQUs1QixDQUFDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIjIS91c3IvYmluL2VudiBub2RlXHJcbmltcG9ydCAnc291cmNlLW1hcC1zdXBwb3J0L3JlZ2lzdGVyJztcclxuaW1wb3J0ICogYXMgY2RrIGZyb20gJ2F3cy1jZGstbGliJztcclxuaW1wb3J0IHsgSGVsbG9DZGtTdGFjayB9IGZyb20gXCIuLi9saWIvSGVsbG9DZGtTdGFja1wiO1xyXG5cclxuY29uc3QgYXBwID0gbmV3IGNkay5BcHAoKTtcclxubmV3IEhlbGxvQ2RrU3RhY2soYXBwLCAnSGVsbG9DZGtTdGFjaycsIHtcclxuIFxyXG5cclxuICAgIC8qIGRlZmluZSBsYW1iZGEgc3RhY2sgKi9cclxuXHJcblxyXG5cclxuXHJcbn0pOyJdfQ==
